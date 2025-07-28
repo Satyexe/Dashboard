@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+{% block content %}
+  <div class="text-center">
+    <h1>Welcome to the Threat Intelligence Dashboard</h1>
+    <p>Please <a href="{{ url_for('main.login') }}">login</a> or <a href="{{ url_for('main.register') }}">register</a>.</p>
+  </div>
+{% endblock %}
